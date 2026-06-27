@@ -120,7 +120,6 @@ TRAINER=(
     trainer.nnodes=${NNODES}
     trainer.save_freq=${save_freq}
     trainer.test_freq=${test_freq}
-    trainer.total_training_steps=150
     trainer.total_epochs=${total_epochs}
 )
 
@@ -144,6 +143,8 @@ bash run_qwen3_0.6b_grpo_gsm8k_metax.sh
 ```
 
 Training is running successfully if you see step-level progress output in the logs.
+
+**Training Log**: [verl_grpo_gsm8k_metax](https://swanlab.cn/@harward/verl_grpo_gsm8k_metax/runs/9xnvjmby/chart)
 
 ## Next Steps
 
