@@ -76,7 +76,7 @@ Set the MetaX platform before launching training:
 export VERL_PLATFORM=metax
 ```
 
-Or let auto-detection handle it (requires `mx-smi` in PATH inside the container). See [Environment Variables Reference](./env_reference.md) for full configuration options.
+Or let auto-detection handle it (requires `mx-smi` in PATH inside the container).
 
 ## Verification
 
